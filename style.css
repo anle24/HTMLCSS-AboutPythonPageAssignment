@@ -1,0 +1,171 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+body .wrapper {
+  background-color: #19577e;
+  width: 970px;
+}
+
+body img {
+  width: 350px;
+  margin: 15px;
+}
+
+.corner {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 300px;
+}
+
+.corner p{
+  text-align: right;
+  color: white;
+  font-size: 12px;
+  margin: 10px 20px 10px 0px;
+}
+
+.corner a{
+  color: #f2c337;
+}
+
+#search {
+  background-color: #404040;
+  height: 45px;
+  width: 200px;
+  border-radius: 10px;
+  padding: 15px 20px 0px 40px;
+  box-shadow: 2px 2px 2px black;
+}
+
+#search textarea{
+  height: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#search input[type=submit]{
+  background-color: #234d7e;
+  height: 30px;
+  width: 40px;
+  font-size: 12px;
+  color: white;
+  border-radius: 5px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.navbar {
+  background-color: #2f6fb0;
+  height: 35px;
+  width: 840px;
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 0px 0px 0px;
+  margin: 0px 0px 20px 80px;
+  box-shadow: 2px 2px 2px black;
+}
+
+.navbar a{
+  text-decoration: none;
+  color: white;
+  margin: 0px 20px 0px 20px;
+}
+
+.navleft {
+  width: 200px;
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+  margin-left: 50px;
+  padding: 10px;
+}
+
+.navleft ul {
+  list-style-type: none;
+}
+
+.navleft li {
+  color: #f2c337;
+  margin-top: 10px;
+}
+
+.navleft a {
+  color: white;
+}
+
+.intro {
+  width: 650px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+}
+
+.intro p {
+  margin-top: 0px;
+}
+
+.intro .whitetext {
+  color: white;
+  font-size: 14px;
+}
+
+.intro .quote {
+  color: #f2c337;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.intro .whitetext-large {
+  color: white;
+  font-size: 16px;
+}
+
+.details {
+  background-color: white;
+  border-top: 3px solid black;
+  font-size: 12px;
+  text-align: center;
+  padding: 10px 10px 10px 80px;
+  margin-bottom: 50px;
+}
+
+.details h2 {
+  margin-bottom: 0px;
+}
+
+.details a {
+  text-decoration: none;
+  color: #65abf4;
+}
+
+a .small-link {
+  font-size: 8px; /*not sure why this isn't reducing link size*/
+}
+
+.box-details {
+  width: 250px;
+  margin-left: 20px;
+  border-top: 3px solid #2f6fb0;
+  padding: 0px 120px 0px 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.bottom {
+  text-align: center;
+}
+
+.bottom a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #4894cb;
+  margin: 0px 20px 0px 20px
+}
+
+.bottom p {
+  font-size: 8px;
+  color: #4894cb;
+}
